@@ -25,13 +25,19 @@ body {
     font-weight: 400;
 }
 
+section {
+    margin: 100px 0;
+}
+
 
 /* Nav Bar */
 
 .nav {
-    position: sticky;
+    position: fixed;
     z-index: 1;
     top: 0;
+    width: 100%;
+    margin: 0;
 }
 
 .nav-wrapper {
@@ -84,6 +90,10 @@ a {
 
 a:hover {
     color: #6545b7;
+}
+
+a:active {
+    color: red;
 }
 
 .hamburger, .cross {
