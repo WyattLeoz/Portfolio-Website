@@ -98,9 +98,14 @@ a:hover {
 
 @media screen and (max-width: 800px) {
 
+    ul {
+        height: 100vh;
+    }
+
     .nav-link-wrapper {
         position: fixed;
         width: 65%;
+        /* height: 100vh; */
         margin-left: 35%;
         background-color: rgba(90, 86, 86, 0.6);
         margin-top: 0;
@@ -110,6 +115,9 @@ a:hover {
         display: flex;
         flex-direction: column;
         align-items: start;
+        justify-content: start;
+
+        /* height: 100vh; */
 
         /* IMPT GO LEARN HOW TO DO SLIDE IN FROM RIGHT TO LEFT */
         transition: transform 150ms ease-out;
