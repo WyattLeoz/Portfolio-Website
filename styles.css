@@ -31,17 +31,19 @@ body {
     line-height: 1.3;
     background-color: rgb(0, 0, 0);
     color: white;
-    
     font-weight: 400;
-
-
-    /* height: 2000px; */
 }
 
 section {
-    margin: 100px 0;
+    margin: 5rem 0;
 }
 
+@media screen and (max-width: 800px) {
+    p {
+        font-size: 1.3rem;
+
+    }
+}
 
 /* Nav Bar */
 
@@ -55,8 +57,8 @@ section {
 
 .nav-wrapper {
     font-size: 1.3rem;
-    /* background-color: rgb(0, 0, 0); */
-    background: linear-gradient(to top right, #0f0C29, #302B63);
+    background-color: rgb(0, 0, 0);
+    /* background: linear-gradient(to top right, #0f0C29, #302B63); */
     height: 5rem;
     width: 100%;
     display: flex;
@@ -243,16 +245,70 @@ p.title {
 
 
 
-/* h1 {
+
+
+
+
+
+
+
+
+
+
+/* test Gradient Section */
+
+
+section > div > h1 {
     margin: 0;
+}
+
+section > div > p {
+    margin: 0;
+}
+
+section.aboutMe {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    font-size: 2rem;
+    /* text-align: center; */
+    /* height: 300px; */
+    /* background: linear-gradient(to top right, #0f0C29, #302B63); */
+}
+
+section > .aboutTitle {
+    max-width: 45%;
+    text-align: left;
+    margin-bottom: 0.5rem;
+
+}
+
+img.aboutImg {
+    width: 450px;
+    border-radius: 0.75rem;
+}
+
+/* section > h1 > i.arrow-right {
+    font-size: 1.75rem;
 } */
 
-section.gradient {
-    width: 100vw;
-    height: 300px;
-    background: linear-gradient(to top right, #0f0C29, #302B63);
-    /* margin: 0; */
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -267,11 +323,6 @@ section.gradient {
 
 
 
-#banana {
-    margin-top: 1000px;
-    width: 100px;
-}
-
 #zzz2 {
-    margin-top: 1000px;
+    margin-top: 10px;
 }
