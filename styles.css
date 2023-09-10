@@ -199,9 +199,10 @@ a:active {
 
 
 
+
+
+/* -----------------NEXT SECTION----------------- */
 /* VIDEO AUTOPLAY BACKGROUND SECTION */
-
-
 
 .showcase{
     width: 100%;
@@ -293,7 +294,24 @@ img.aboutImg {
 } */
 
 
+@media screen and (max-width: 800px) {
+    section > .aboutTitle {
+        max-width: 90%;
+        text-align: center;
+        margin-top: 5rem;
+        margin-bottom: 5rem;
+    }
 
+    .imgDiv {
+        display: flex;
+        justify-content: center;
+    }
+
+    /* NOTE THIS IS GLOBAL IMG STYLES */
+    img {
+        max-width: 80%;
+    }
+}
 
 
 
